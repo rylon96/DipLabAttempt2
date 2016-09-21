@@ -9,9 +9,9 @@ public class Startup {
     public static void main(String[] args) {
         TipCalculator calc = 
                new FoodServiceTipCalculator(ServiceQuality.GOOD,100);
-       TipService service = new TipService(calc);
+       TipCalculatorService service = new TipCalculatorService(calc);
        double amt = service.getTip();
-        System.out.println(amt);
+        System.out.println("Your Tip is $" + amt);
         
     }
 

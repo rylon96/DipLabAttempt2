@@ -1,8 +1,8 @@
 package dip.lab2.student.solution1;
-public class TipService {
+public class TipCalculatorService {
     private TipCalculator tipCalculator;
     
-    public TipService (TipCalculator tipCalculator){
+    public TipCalculatorService (TipCalculator tipCalculator){
         this.tipCalculator = tipCalculator;
     }
     public double getTip(){
