@@ -44,11 +44,11 @@ public class BaggageServiceTipCalculator implements TipCalculator {
         serviceQuality = q;
     }
 
-    public ServiceQuality getServiceQuality() {
+    public final ServiceQuality getServiceQuality() {
         return serviceQuality;
     }
 
-    public int getBagCount() {
+    public final int getBagCount() {
         return bagCount;
     }
 
@@ -60,11 +60,11 @@ public class BaggageServiceTipCalculator implements TipCalculator {
         this.bagCount = bagCount;
     }
 
-    public double getBaseTipPerBag() {
+    public final double getBaseTipPerBag() {
         return baseTipPerBag;
     }
 
-    public void setBaseTipPerBag(double baseTipPerBag) {
+    public final void setBaseTipPerBag(double baseTipPerBag) {
         if(baseTipPerBag < 0) {
             throw new IllegalArgumentException(
                     "error: base tip must be greater than or equal to zero");
@@ -72,43 +72,43 @@ public class BaggageServiceTipCalculator implements TipCalculator {
         this.baseTipPerBag = baseTipPerBag;
     }
 
-    public double getMinBill() {
+    public final double getMinBill() {
         return minBill;
     }
 
-    public void setMinBill(double minBill) {
+    public final void setMinBill(double minBill) {
         this.minBill = minBill;
     }
 
-    public double getMaxBill() {
+    public final double getMaxBill() {
         return maxBill;
     }
 
-    public void setMaxBill(double maxBill) {
+    public final void setMaxBill(double maxBill) {
         this.maxBill = maxBill;
     }
 
-    public double getGoodRate() {
+    public final double getGoodRate() {
         return goodRate;
     }
 
-    public void setGoodRate(double goodRate) {
+    public final void setGoodRate(double goodRate) {
         this.goodRate = goodRate;
     }
 
-    public double getFairRate() {
+    public final double getFairRate() {
         return fairRate;
     }
 
-    public void setFairRate(double fairRate) {
+    public final void setFairRate(double fairRate) {
         this.fairRate = fairRate;
     }
 
-    public double getPoorRate() {
+    public final double getPoorRate() {
         return poorRate;
     }
 
-    public void setPoorRate(double poorRate) {
+    public final void setPoorRate(double poorRate) {
         this.poorRate = poorRate;
     }
 

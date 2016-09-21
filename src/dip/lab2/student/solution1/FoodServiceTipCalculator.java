@@ -57,39 +57,39 @@ public class FoodServiceTipCalculator implements TipCalculator{
         serviceQuality = q;
     }
 
-    public ServiceQuality getServiceQuality() {
+    public final ServiceQuality getServiceQuality() {
         return serviceQuality;
     }
 
-    public double getMinBill() {
+    public final double getMinBill() {
         return minBill;
     }
 
-    public void setMinBill(double minBill) {
+    public final void setMinBill(double minBill) {
         this.minBill = minBill;
     }
 
-    public double getGoodRate() {
+    public final double getGoodRate() {
         return goodRate;
     }
 
-    public void setGoodRate(double goodRate) {
+    public final void setGoodRate(double goodRate) {
         this.goodRate = goodRate;
     }
 
-    public double getFairRate() {
+    public final double getFairRate() {
         return fairRate;
     }
 
-    public void setFairRate(double fairRate) {
+    public final void setFairRate(double fairRate) {
         this.fairRate = fairRate;
     }
 
-    public double getPoorRate() {
+    public final double getPoorRate() {
         return poorRate;
     }
 
-    public void setPoorRate(double poorRate) {
+    public final void setPoorRate(double poorRate) {
         this.poorRate = poorRate;
     }
 
