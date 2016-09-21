@@ -20,7 +20,7 @@ public class BaggageServiceTipCalculator implements TipCalculator {
     }
 
     @Override
-    public double getTip() {
+    public final double getTip() {
         double tip = 0.00; // always initialize local variables
 
         switch(serviceQuality) {
